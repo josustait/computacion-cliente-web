@@ -1,0 +1,37 @@
+h2{
+	color: #F5FFFF;
+}
+h1{
+	color: #F5FFFF;
+}
+body{
+	background-color: #1D1D15;
+	font-family: Arial;
+}
+#main-container{
+	margin:20px auto;
+	width: 1000px;
+}
+table{
+ background-color: #72B906;
+ text-align: left;
+ width: 100%;
+}
+th, td{
+
+padding: 10px;
+}
+thead{
+	background-color: #FF530A;
+	border-bottom: solid 5px;
+	border-bottom-color: #FF0F0A;
+	color: #F4F4CA;
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+tr:hover td{
+	background-color: #FFFA07;
+	color:#050E4C;
+}
